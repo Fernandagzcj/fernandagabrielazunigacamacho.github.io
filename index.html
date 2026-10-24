@@ -345,34 +345,6 @@
             transform: scale(1.06);
         }
 
-        /* DATOS PERSONALES LIST */
-        .data-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 18px;
-        }
-
-        .data-item {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid rgba(212, 175, 55, 0.15);
-            padding: 18px 22px;
-            border-radius: 16px;
-        }
-
-        .data-label {
-            font-size: 0.78rem;
-            color: var(--gold-rose);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .data-value {
-            font-size: 1.05rem;
-            font-weight: 600;
-            color: #fff;
-            margin-top: 5px;
-        }
-
         /* PROYECTOS GRID */
         .projects-grid {
             display: grid;
@@ -412,7 +384,7 @@
         /* RED DE COMPAÑEROS DE ADMINISTRACIÓN */
         .friends-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 16px;
             margin-top: 15px;
         }
@@ -442,12 +414,6 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-        }
-
-        .friend-role {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            margin-top: 4px;
         }
 
         /* SECCIÓN REDES SOCIALES Y CONTACTO */
@@ -647,7 +613,7 @@
             </div>
         </section>
 
-        <!-- RED DE COMPAÑEROS (ADMINISTRACIÓN) -->
+        <!-- RED DE COMPAÑEROS DE ADMINISTRACIÓN -->
         <section id="red-amigos" class="card">
             <h2 class="card-title"><i class="fa-solid fa-users-viewfinder"></i> Portafolios de Mis Compañeros</h2>
             <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px;">
@@ -655,61 +621,84 @@
             </p>
             
             <div class="friends-grid">
-                <!-- Rafael (Tu favorito) -->
-                <a href="https://fernandagzcj.github.io/rafael-mateo-chirinos-aspauza/" target="_blank" class="friend-card">
+                <!-- Colaborador 01 -->
+                <a href="../01-colaborador/" target="_blank" class="friend-card">
                     <div class="friend-name">
-                        Rafael Mateo Chirinos
+                        Colaborador 01
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </div>
-                    <div class="friend-role">Alta Dirección & Finanzas</div>
-                </a>
-                
-                <!-- Matías -->
-                <a href="https://fernandagzcj.github.io/matias/" target="_blank" class="friend-card">
-                    <div class="friend-name">
-                        Matías
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </div>
-                    <div class="friend-role">Gestión de Operaciones</div>
                 </a>
 
-                <!-- Abel -->
-                <a href="https://fernandagzcj.github.io/abel/" target="_blank" class="friend-card">
+                <!-- Colaborador 02 (Rafael) -->
+                <a href="../02-rafael/" target="_blank" class="friend-card">
                     <div class="friend-name">
-                        Abel
+                        Colaborador 02
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </div>
-                    <div class="friend-role">Marketing Estratégico</div>
                 </a>
 
-                <!-- Los otros 7 compañeros -->
-                <a href="#" target="_blank" class="friend-card">
-                    <div class="friend-name">Compañero 04 <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
-                    <div class="friend-role">Recursos Humanos</div>
+                <!-- Colaborador 03 -->
+                <a href="../03-colaborador/" target="_blank" class="friend-card">
+                    <div class="friend-name">
+                        Colaborador 03
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
                 </a>
-                <a href="#" target="_blank" class="friend-card">
-                    <div class="friend-name">Compañero 05 <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
-                    <div class="friend-role">Comercio Internacional</div>
+
+                <!-- Colaborador 04 -->
+                <a href="../04-colaborador/" target="_blank" class="friend-card">
+                    <div class="friend-name">
+                        Colaborador 04
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
                 </a>
-                <a href="#" target="_blank" class="friend-card">
-                    <div class="friend-name">Compañero 06 <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
-                    <div class="friend-role">Emprendimiento & Startups</div>
+
+                <!-- Colaborador 05 -->
+                <a href="../05-colaborador/" target="_blank" class="friend-card">
+                    <div class="friend-name">
+                        Colaborador 05
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
                 </a>
-                <a href="#" target="_blank" class="friend-card">
-                    <div class="friend-name">Compañero 07 <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
-                    <div class="friend-role">Gestión de Proyectos</div>
+
+                <!-- Colaborador 06 -->
+                <a href="../06-colaborador/" target="_blank" class="friend-card">
+                    <div class="friend-name">
+                        Colaborador 06
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
                 </a>
-                <a href="#" target="_blank" class="friend-card">
-                    <div class="friend-name">Compañero 08 <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
-                    <div class="friend-role">Business Intelligence</div>
+
+                <!-- Colaborador 07 -->
+                <a href="../07-colaborador/" target="_blank" class="friend-card">
+                    <div class="friend-name">
+                        Colaborador 07
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
                 </a>
-                <a href="#" target="_blank" class="friend-card">
-                    <div class="friend-name">Compañero 09 <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
-                    <div class="friend-role">Sostenibilidad & ESG</div>
+
+                <!-- Colaborador 08 -->
+                <a href="../08-colaborador/" target="_blank" class="friend-card">
+                    <div class="friend-name">
+                        Colaborador 08
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
                 </a>
-                <a href="#" target="_blank" class="friend-card">
-                    <div class="friend-name">Compañero 10 <i class="fa-solid fa-arrow-up-right-from-square"></i></div>
-                    <div class="friend-role">Logística Internacional</div>
+
+                <!-- Colaborador 09 -->
+                <a href="../09-colaborador/" target="_blank" class="friend-card">
+                    <div class="friend-name">
+                        Colaborador 09
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
+                </a>
+
+                <!-- Colaborador 10 -->
+                <a href="../10-colaborador/" target="_blank" class="friend-card">
+                    <div class="friend-name">
+                        Colaborador 10
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
                 </a>
             </div>
         </section>
