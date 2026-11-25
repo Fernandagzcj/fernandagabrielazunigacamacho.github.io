@@ -3,179 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fernanda Gabriela Zuñiga Camacho | Computer Science</title>
-    
+    <title>Fernanda Gabriela Zuñiga Camacho</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <div class="fer-tech-grid-bg"></div>
-
-    <div class="fer-wrapper-principal">
-
-        <header class="fer-header-area">
-            <div class="fer-big-avatar-box">
-                <img src="foto1.png" alt="Fernanda Gabriela Zuñiga Camacho" class="fer-avatar-img" onerror="this.src='https://via.placeholder.com/260x260/04060a/f59e0b?text=Fernanda'">
-                <div class="fer-avatar-ring"></div>
-            </div>
-            
-            <div class="fer-tag-sup"><i class="fa-solid fa-code"></i> UCSP · Computer Science</div>
-            
-            <h1 class="fer-title-main">Fernanda Gabriela<br><span>Zuñiga Camacho</span></h1>
-            
-            <p class="fer-subtitle-main">Computer Science</p>
-
-            <div class="fer-metrics-flex">
-                <div class="fer-metric-card">
-                    <span class="fer-m-val">UCSP</span>
-                    <span class="fer-m-lbl">Arequipa, Perú</span>
-                </div>
-                <div class="fer-metric-card">
-                    <span class="fer-m-val">C++</span>
-                    <span class="fer-m-lbl">Lógica & Estructuras</span>
-                </div>
-                <div class="fer-metric-card">
-                    <span class="fer-m-val">100%</span>
-                    <span class="fer-m-lbl">Innovación Web</span>
-                </div>
-            </div>
-        </header>
-
-        <div class="fer-dashboard-layout">
-
-            <nav class="fer-vertical-menu">
-                <button class="fer-v-btn active" onclick="mostrarVentanaVertical('pane-perfil', this)"><i class="fa-solid fa-crown"></i> Perfil Profesional</button>
-                <button class="fer-v-btn" onclick="mostrarVentanaVertical('pane-formacion', this)"><i class="fa-solid fa-graduation-cap"></i> Formación & Enfoque</button>
-                <button class="fer-v-btn" onclick="mostrarVentanaVertical('pane-skills', this)"><i class="fa-solid fa-laptop-code"></i> Competencias</button>
-                <button class="fer-v-btn" onclick="mostrarVentanaVertical('pane-proyectos', this)"><i class="fa-solid fa-award"></i> Proyectos</button>
-                <button class="fer-v-btn" onclick="mostrarVentanaVertical('pane-galeria', this)"><i class="fa-solid fa-camera-retro"></i> Galería Personal</button>
-                <button class="fer-v-btn" onclick="mostrarVentanaVertical('pane-collab', this)"><i class="fa-solid fa-users"></i> Compañeros</button>
-                <button class="fer-v-btn" onclick="mostrarVentanaVertical('pane-contacto', this)"><i class="fa-solid fa-address-book"></i> Contacto & Redes</button>
-            </nav>
-
-            <div class="fer-dynamic-display">
-
-                <div id="pane-perfil" class="fer-window-pane active">
-                    <div class="fer-card-box">
-                        <h2 class="fer-card-heading"><i class="fa-solid fa-user-gear"></i> Perfil Profesional</h2>
-                        <p class="fer-text-main">
-                            Hola, soy <strong>Fernanda Gabriela Zuñiga Camacho</strong>, estudiante de <strong>Ciencia de la Computación</strong> en la <strong>Universidad Católica San Pablo (UCSP)</strong> en Arequipa.
-                        </p>
-                        <p class="fer-text-muted" style="margin-top: 15px;">
-                            Me apasiona el desarrollo web, la ingeniería de software y la resolución eficiente de problemas mediante código limpio y estructurado.
-                        </p>
-                    </div>
-                </div>
-
-                <div id="pane-formacion" class="fer-window-pane">
-                    <div class="fer-card-box">
-                        <h2 class="fer-card-heading"><i class="fa-solid fa-graduation-cap"></i> Formación Académica</h2>
-                        <p class="fer-text-muted">
-                            Formación rigurosa en fundamentos de la computación, estructuras de datos avanzadas, algoritmos, sistemas operativos y matemáticas discretas en la UCSP.
-                        </p>
-                    </div>
-                </div>
-
-                <div id="pane-skills" class="fer-window-pane">
-                    <div class="fer-card-box">
-                        <h2 class="fer-card-heading"><i class="fa-solid fa-laptop-code"></i> Competencias Técnicas</h2>
-                        <div style="display: flex; flex-direction: column; gap: 18px;">
-                            <div>
-                                <div style="display: flex; justify-content: space-between; font-size: 0.9rem; margin-bottom: 6px; font-weight: 600;">
-                                    <span>Programación en C++ & Lógica</span><span style="color: var(--gold-primary);">Avanzado</span>
-                                </div>
-                                <div style="background: rgba(255,255,255,0.05); height: 8px; border-radius: 6px; overflow: hidden; border: 1px solid var(--border-gold);">
-                                    <div style="background: linear-gradient(90deg, var(--gold-primary), var(--gold-light)); width: 90%; height: 100%;"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div style="display: flex; justify-content: space-between; font-size: 0.9rem; margin-bottom: 6px; font-weight: 600;">
-                                    <span>Desarrollo Web & Software</span><span style="color: var(--gold-primary);">Avanzado</span>
-                                </div>
-                                <div style="background: rgba(255,255,255,0.05); height: 8px; border-radius: 6px; overflow: hidden; border: 1px solid var(--border-gold);">
-                                    <div style="background: linear-gradient(90deg, var(--gold-primary), var(--gold-light)); width: 88%; height: 100%;"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="pane-proyectos" class="fer-window-pane">
-                    <div class="fer-card-box">
-                        <h2 class="fer-card-heading"><i class="fa-solid fa-award"></i> Proyectos & Trabajos</h2>
-                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px;">
-                            <div style="background: rgba(255,255,255,0.02); padding: 22px; border-radius: 14px; border: 1px solid var(--border-gold);">
-                                <h3 style="color: var(--gold-light); font-size: 1.1rem; margin-bottom: 8px; font-family: 'Playfair Display', serif; font-style: italic;">Estructuras de Datos en C++</h3>
-                                <p class="fer-text-muted" style="font-size: 0.88rem;">Implementación de contenedores dinámicos y algoritmos de optimización de memoria.</p>
-                            </div>
-                            <div style="background: rgba(255,255,255,0.02); padding: 22px; border-radius: 14px; border: 1px solid var(--border-gold);">
-                                <h3 style="color: var(--gold-rose); font-size: 1.1rem; margin-bottom: 8px; font-family: 'Playfair Display', serif; font-style: italic;">Desarrollo Web & Sistemas</h3>
-                                <p class="fer-text-muted" style="font-size: 0.88rem;">Diseño y despliegue multiplataforma para portafolios académicos interactivos.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="pane-galeria" class="fer-window-pane">
-                    <div class="fer-card-box">
-                        <h2 class="fer-card-heading"><i class="fa-solid fa-camera-retro"></i> Galería Personal</h2>
-                        <div class="fer-gallery-grid">
-                            <div class="fer-gallery-card">
-                                <img src="foto2.png" alt="Foto 2" onerror="this.src='https://via.placeholder.com/400x280/04060a/f59e0b?text=Foto+2'">
-                            </div>
-                            <div class="fer-gallery-card">
-                                <img src="foto3.png" alt="Foto 3" onerror="this.src='https://via.placeholder.com/400x280/04060a/f59e0b?text=Foto+3'">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="pane-collab" class="fer-window-pane">
-                    <div class="fer-card-box">
-                        <h2 class="fer-card-heading"><i class="fa-solid fa-users"></i> Directorio de Colaboradores</h2>
-                        <div class="fer-collab-grid">
-                            <a href="#" class="fer-collab-item"><span>Compañero 1</span><i class="fa-solid fa-arrow-right"></i></a>
-                            <a href="#" class="fer-collab-item"><span>Compañero 2</span><i class="fa-solid fa-arrow-right"></i></a>
-                            <a href="#" class="fer-collab-item"><span>Compañero 3</span><i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="pane-contacto" class="fer-window-pane">
-                    <div class="fer-card-box">
-                        <h2 class="fer-card-heading"><i class="fa-solid fa-address-book"></i> Contacto & Redes Oficiales</h2>
-                        <div class="fer-social-grid">
-                            <a href="mailto:fernanda.zuniga@ucsp.edu.pe" class="fer-social-link">
-                                <i class="fa-solid fa-envelope"></i><span>fernanda.zuniga@ucsp.edu.pe</span>
-                            </a>
-                            <a href="https://instagram.com" target="_blank" class="fer-social-link">
-                                <i class="fa-brands fa-instagram"></i><span>Instagram Oficial</span>
-                            </a>
-                            <a href="https://github.com/Fernandagzcj" target="_blank" class="fer-social-link">
-                                <i class="fa-brands fa-github"></i><span>GitHub (Fernandagzcj)</span>
-                            </a>
-                            <a href="https://linkedin.com" target="_blank" class="fer-social-link">
-                                <i class="fa-brands fa-linkedin"></i><span>LinkedIn Profesional</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
+    <header>
+        <img src="foto1.png" alt="Foto de Fernanda" class="foto-perfil">
+        <div>
+            <h1>Fernanda Gabriela Zuñiga Camacho</h1>
+            <p>Estudiante de Ciencia de la Computación, Universidad Católica San Pablo (UCSP), Arequipa</p>
         </div>
+    </header>
 
-        <footer>
-            <p>© 2026 Fernanda Gabriela Zuñiga Camacho · UCSP Computer Science</p>
-        </footer>
+    <nav>
+        <a href="#perfil">Perfil</a>
+        <a href="#formacion">Formación</a>
+        <a href="#profesor">Profesor</a>
+        <a href="#competencias">Competencias</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#galeria">Galería</a>
+        <a href="#companeros">Compañeros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
 
-    </div>
+    <main>
 
-    <script src="script.js"></script>
+        <section id="perfil">
+            <h2>Perfil</h2>
+            <p>
+                Hola, soy Fernanda, estudiante de Ciencia de la Computación en la UCSP.
+                Me interesa el desarrollo web, la ingeniería de software y resolver problemas
+                con código ordenado y fácil de entender.
+            </p>
+        </section>
+
+        <section id="formacion">
+            <h2>Formación</h2>
+            <p>
+                Actualmente estudio Ciencia de la Computación en la Universidad Católica San Pablo (UCSP), en Arequipa.
+            </p>
+        </section>
+
+        <section id="profesor">
+            <h2>Profesor</h2>
+            <p>
+                Mi profesor es Ernesto Cuadros Vargas.
+                Puedes ver su página aquí:
+                <a href="https://socios.spc.org.pe/ecuadros/" target="_blank">socios.spc.org.pe/ecuadros</a>.
+            </p>
+            <p>
+                LinkedIn: <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">Ernesto Cuadros Vargas</a>
+            </p>
+        </section>
+
+        <section id="competencias">
+            <h2>Competencias</h2>
+            <ul>
+                <li>C++</li>
+                <li>Python</li>
+            </ul>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+
+            <h3>Base de datos en Programación Orientada a Objetos</h3>
+            <p>Proyecto del curso de Programación Orientada a Objetos, donde hice una base de datos.</p>
+            <p>El código está en mi <a href="https://github.com/Fernandagzcj" target="_blank">GitHub</a>.</p>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería</h2>
+            <div class="fotos">
+                <img src="foto2.png" alt="Foto 2">
+                <img src="foto3.png" alt="Foto 3">
+            </div>
+        </section>
+
+        <section id="companeros">
+            <h2>Compañeros</h2>
+            <ul>
+                <li><a href="https://rafaelchirinosaspauza.github.io/sitio-web-sobre-mi-/" target="_blank">Rafael Chirinos</a></li>
+                <li><a href="https://eduardoisaacrojasjuarez.github.io/" target="_blank">Eduardo Rojas</a></li>
+                <li><a href="https://carlosfabianhuarachihumora.github.io" target="_blank">Carlos Huarachi</a></li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <ul>
+                <li>Correo: <a href="mailto:fernanda.zuniga@ucsp.edu.pe">fernanda.zuniga@ucsp.edu.pe</a></li>
+                <li>GitHub: <a href="https://github.com/Fernandagzcj" target="_blank">Fernandagzcj</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/fernanda-gabriela-zu%C3%B1iga-camacho-247534309/" target="_blank">Fernanda Zuñiga</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Fernanda Gabriela Zuñiga Camacho</p>
+    </footer>
+
 </body>
 </html>
